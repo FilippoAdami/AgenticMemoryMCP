@@ -1,0 +1,39 @@
+{
+  "name": "vault-service",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.11.1",
+    "@lancedb/lancedb": "^0.12.0",
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@mozilla/readability": "^0.6.0",
+    "@xenova/transformers": "^2.17.2",
+    "chokidar": "^3.6.0",
+    "duck-duck-scrape": "^2.2.7",
+    "googlethis": "^1.8.0",
+    "hono": "latest",
+    "jsdom": "^26.1.0",
+    "puppeteer": "^25.2.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "sharp": "^0.32.6",
+    "y-websocket": "^2.0.2",
+    "yaml": "^2.4.1",
+    "yjs": "^13.6.1"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^28.0.3",
+    "@types/mozilla-readability": "^0.2.1",
+    "@types/node": "^20.12.12",
+    "tsx": "^4.10.5",
+    "typescript": "latest",
+    "vitest": "^1.6.0"
+  }
+}
